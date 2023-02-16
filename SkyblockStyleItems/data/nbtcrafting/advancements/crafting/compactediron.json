@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "compactedcoal": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "nbtcrafting:compactediron"
+            }
+        }
+    },
+    "rewards": {
+        "function": "nbtcrafting:compactediron"
+    }
+}

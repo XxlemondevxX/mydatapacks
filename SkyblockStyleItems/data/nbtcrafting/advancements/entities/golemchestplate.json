@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "killedirongolem": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem",
+                    "nbt": "{Tags:[\"golemraiderboss\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "nbtcrafting:givegolemchestplate"
+    }
+}

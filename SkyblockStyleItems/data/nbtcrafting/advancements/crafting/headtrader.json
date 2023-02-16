@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "headtrader": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "nbtcrafting:headtrader"
+            }
+        }
+    },
+    "rewards": {
+        "function": "nbtcrafting:headtrader"
+    }
+}
